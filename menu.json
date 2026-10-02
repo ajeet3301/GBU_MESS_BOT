@@ -1,0 +1,57 @@
+{
+  "leadMinutes": 15,
+  "meals": [
+    {
+      "name": "🍳 Breakfast",
+      "time": "07:30",
+      "days": [
+        "Aloo Pyaaz Paratha, Curd, Bread, Jam, Tea",
+        "2 Banana, Milk, Bread, Jam, Tea",
+        "Uttapam, Coconut Tomato Chutney, Bread, Jam, Tea",
+        "Poori, Aloo Bhaji, Bread, Jam, Tea",
+        "Besan Chilla, Mint Chutney, Bread, Jam, Tea",
+        "Pav, Bhaji, Bread, Jam, Tea",
+        "Vada/Idly, Sambar, Bread, Jam, Coffee"
+      ]
+    },
+    {
+      "name": "🍛 Lunch",
+      "time": "12:30",
+      "days": [
+        "Green Salad, Dal Makhani, Jeera Rice, Mix Veg, Roti, Pickle, Plain Lassi",
+        "Green Salad, Arhar Dal Tadka, Onion Rice, Malai Kofta, Roti, Pickle, Jeera Raita",
+        "Green Salad, Tirveni Dal, Dhaniya Rice, Lauki Chana Dal, Roti, Pickle, Mix Raita",
+        "Green Salad, Besan Pakora Kadhi, Plain Rice, Aloo Bharta, Roti, Pickle, Fryms",
+        "Green Salad, Lasuni Dal Tadka, Whole Spices Rice, Kadhai/Butter Paneer (150g), Roti, Pickle, Masala Raita",
+        "Green Salad, Rajma Raseela, Jeera Rice, Baigan Peas Bharta, Roti, Pickle, Plain Lassi",
+        "Lacha Onion, Choly, Jeera Rice, Poori, Roti, Pickle, Boondi Raita"
+      ]
+    },
+    {
+      "name": "🥪 Snacks",
+      "time": "17:00",
+      "days": [
+        "Bhel Puri, Mint/Sauth Chutney, Roohfza",
+        "Bombay Sandwich, Mint/Sauth Chutney, Nimbu Pani",
+        "2 Aloo Bonda, Mint/Sauth Chutney, Tea",
+        "Semiya Upma, Mint Chutney, Nimbu Pani",
+        "Veg Soya Biryani, Mint Chutney, Roohfza",
+        "2 Samosa/Bread Pakoda, Mint/Sauth Chutney, Tea",
+        "Maggie/Macaroni/Chowmein, Ketchup, Nimbu Pani"
+      ]
+    },
+    {
+      "name": "🍽 Dinner",
+      "time": "19:30",
+      "days": [
+        "Green Salad, Mutter Paneer (150g), Lahsuni Dal Tadka, Roti, Plain Rice, Pickle, Sooji Halwa",
+        "Green Salad, Veg Manchurian, Mix Dal Tadka, Roti, Fried Rice, Pickle, Meetha Boondi",
+        "Green Salad, Mix Veg, Arhar Dal, Roti, Plain Rice, Pickle, Phirni",
+        "Green Salad, Kala Chana Masala Dry/Aloo Capsicum, Moong Masoor Dal, Roti, Plain Rice, Pickle, Dahi Bhalla",
+        "Green Salad, Aloo Mutter Soya, Urad Chane Ki Dal, Roti, Jeera Rice, Pickle, Bread Chashni",
+        "Green Salad, Kadai Veg, Sabut Masoor Dal, Roti, Onion Rice, Pickle, Rice Kheer",
+        "Green Salad, Petha Ki Sabji, Chana Dal Fry, Roti, Plain Fry Rice, Pickle, Besan Laddu"
+      ]
+    }
+  ]
+}

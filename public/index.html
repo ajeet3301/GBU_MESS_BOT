@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mess Reminder</title>
+<style>
+  :root{--bg:#f3f0e6;--fg:#1d2a1f;--mut:#5d6b5f;--ac:#2f6b3f;--ln:#c9c4b0}
+  @media (prefers-color-scheme:dark){:root{--bg:#16201a;--fg:#e8eadb;--mut:#9aa89c;--ac:#8fd19e;--ln:#34443a}}
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{background:var(--bg);color:var(--fg);font:18px/1.5 Georgia,"Times New Roman",serif;display:grid;place-items:center;padding:24px}
+  main{width:100%;max-width:440px}
+  #d{color:var(--mut);margin:0 0 8px;font-size:16px}
+  h1{font-size:clamp(34px,9vw,52px);line-height:1.05;margin:0 0 12px;font-weight:700;letter-spacing:-.02em}
+  p{margin:0 0 28px;color:var(--mut)}
+  form{display:flex;border:2px solid var(--fg);border-radius:4px}
+  input{flex:1;min-width:0;border:0;background:transparent;color:var(--fg);font:inherit;padding:14px}
+  input:focus{outline:none}
+  form:focus-within{border-color:var(--ac);box-shadow:0 0 0 3px color-mix(in srgb,var(--ac) 30%,transparent)}
+  button{border:0;background:var(--fg);color:var(--bg);font:inherit;font-weight:700;padding:0 20px;cursor:pointer}
+  button:disabled{opacity:.5}
+  #m{min-height:28px;margin-top:12px;font-size:16px}
+  .ok{color:var(--ac)}.er{color:#b3382c}
+</style>
+</head>
+<body>
+<main>
+  <p id="d"></p>
+  <h1>Email mess reminders are coming.</h1>
+  <p>Leave your email and we'll send the next meal's menu before it's served.</p>
+  <form id="f">
+    <input id="e" type="email" placeholder="you@example.com" aria-label="Email" required autocomplete="email">
+    <button id="b">Notify me</button>
+  </form>
+  <div id="m" role="status"></div>
+</main>
+<script>
+d.textContent=new Date().toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+f.onsubmit=async(x)=>{
+  x.preventDefault();b.disabled=true;m.className="";m.textContent="";
+  try{
+    const r=await fetch("/api/subscribe",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({email:e.value})});
+    const j=await r.json();
+    if(!r.ok)throw new Error(j.error);
+    m.className="ok";m.textContent="Saved. We'll email you when reminders start.";f.reset();
+  }catch(err){m.className="er";m.textContent=err.message||"Something went wrong. Try again."}
+  b.disabled=false;
+};
+</script>
+</body>
+</html>
