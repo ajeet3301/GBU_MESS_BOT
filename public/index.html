@@ -76,10 +76,7 @@
     font-size: 15px;
     padding: 15px 18px;
   }
-  input::placeholder {
-    color: var(--mut);
-    opacity: 0.5;
-  }
+  input::placeholder { color: var(--mut); opacity: 0.5; }
   input:focus { outline: none; }
   form:focus-within {
     border-color: var(--ac);
@@ -106,6 +103,20 @@
   }
   .ok { color: var(--ac); }
   .er { color: #f87171; }
+  .tg {
+    display: block;
+    margin-top: 20px;
+    padding: 14px;
+    text-align: center;
+    color: var(--fg);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: all 0.2s ease;
+  }
+  .tg:hover { border-color: var(--ac); color: var(--ac); }
 </style>
 </head>
 <body>
@@ -118,6 +129,7 @@
     <button id="b">Notify me</button>
   </form>
   <div id="m" role="status"></div>
+  <a class="tg" href="https://t.me/gbu_mess_bot" target="_blank" rel="noopener">✈ Get reminders on Telegram now</a>
 </main>
 <script>
 d.textContent = new Date().toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long", year: "numeric" });
