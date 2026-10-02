@@ -9,26 +9,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f8fafc;
-    --card-bg: #ffffff;
-    --fg: #0f172a;
-    --mut: #64748b;
+    --bg: #000000;
+    --card-bg: #0a0a0c;
+    --fg: #f8fafc;
+    --mut: #94a3b8;
     --ac: #10b981;
-    --ac-hover: #059669;
-    --border: #e2e8f0;
-    --shadow: 0 20px 25px -5px rgb(0 0 0 / 0.05), 0 8px 10px -6px rgb(0 0 0 / 0.05);
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #090d16;
-      --card-bg: #111827;
-      --fg: #f8fafc;
-      --mut: #94a3b8;
-      --ac: #10b981;
-      --ac-hover: #34d399;
-      --border: #1f2937;
-      --shadow: 0 20px 25px -5px rgb(0 0 0 / 0.3), 0 8px 10px -6px rgb(0 0 0 / 0.3);
-    }
+    --ac-hover: #34d399;
+    --border: #1e1e24;
+    --shadow: 0 25px 50px -12px rgb(0 0 0 / 0.7), 0 0 0 1px rgba(255, 255, 255, 0.05);
   }
   * { box-sizing: border-box; }
   html, body { height: 100%; margin: 0; }
@@ -45,21 +33,21 @@
     max-width: 440px;
     background: var(--card-bg);
     border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 40px 32px;
+    border-radius: 20px;
+    padding: 44px 36px;
     box-shadow: var(--shadow);
   }
   #d {
-    color: var(--mut);
-    margin: 0 0 12px;
-    font-size: 14px;
+    color: var(--ac);
+    margin: 0 0 14px;
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
   }
   h1 {
     font-size: clamp(28px, 6vw, 36px);
-    line-height: 1.2;
+    line-height: 1.15;
     margin: 0 0 12px;
     font-weight: 700;
     letter-spacing: -0.03em;
@@ -72,11 +60,11 @@
   }
   form {
     display: flex;
-    background: var(--bg);
+    background: #121216;
     border: 1px solid var(--border);
-    border-radius: 10px;
+    border-radius: 12px;
     overflow: hidden;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
   }
   input {
     flex: 1;
@@ -86,38 +74,38 @@
     color: var(--fg);
     font: inherit;
     font-size: 15px;
-    padding: 14px 16px;
+    padding: 15px 18px;
   }
   input::placeholder {
     color: var(--mut);
-    opacity: 0.7;
+    opacity: 0.5;
   }
   input:focus { outline: none; }
   form:focus-within {
     border-color: var(--ac);
-    box-shadow: 0 0 0 3px color-mix(in srgb, var(--ac) 15%, transparent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--ac) 20%, transparent);
   }
   button {
     border: 0;
     background: var(--ac);
-    color: #ffffff;
+    color: #000000;
     font: inherit;
     font-size: 15px;
-    font-weight: 600;
-    padding: 0 20px;
+    font-weight: 700;
+    padding: 0 22px;
     cursor: pointer;
     transition: background 0.2s ease;
   }
   button:hover { background: var(--ac-hover); }
-  button:disabled { opacity: 0.6; cursor: not-allowed; }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
   #m {
     min-height: 24px;
-    margin-top: 14px;
+    margin-top: 16px;
     font-size: 14px;
     font-weight: 500;
   }
   .ok { color: var(--ac); }
-  .er { color: #ef4444; }
+  .er { color: #f87171; }
 </style>
 </head>
 <body>
