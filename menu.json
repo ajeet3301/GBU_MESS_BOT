@@ -3,7 +3,7 @@
   "meals": [
     {
       "name": "🍳 Breakfast",
-      "time": "07:30",
+      "time": "7:30-9:00 AM",
       "days": [
         "Aloo Pyaaz Paratha, Curd, Bread, Jam, Tea",
         "2 Banana, Milk, Bread, Jam, Tea",
@@ -16,7 +16,7 @@
     },
     {
       "name": "🍛 Lunch",
-      "time": "12:30",
+      "time": "12:00-2:30 PM",
       "days": [
         "Green Salad, Dal Makhani, Jeera Rice, Mix Veg, Roti, Pickle, Plain Lassi",
         "Green Salad, Arhar Dal Tadka, Onion Rice, Malai Kofta, Roti, Pickle, Jeera Raita",
@@ -29,7 +29,7 @@
     },
     {
       "name": "🥪 Snacks",
-      "time": "17:00",
+      "time": "5:00-6:00 PM",
       "days": [
         "Bhel Puri, Mint/Sauth Chutney, Roohfza",
         "Bombay Sandwich, Mint/Sauth Chutney, Nimbu Pani",
@@ -42,7 +42,7 @@
     },
     {
       "name": "🍽 Dinner",
-      "time": "19:30",
+      "time": "7:30-9:30 PM",
       "days": [
         "Green Salad, Mutter Paneer (150g), Lahsuni Dal Tadka, Roti, Plain Rice, Pickle, Sooji Halwa",
         "Green Salad, Veg Manchurian, Mix Dal Tadka, Roti, Fried Rice, Pickle, Meetha Boondi",
