@@ -6,13 +6,13 @@
       "time": "7:30-9:00 AM",
       "start": "07:30",
       "days": [
-        "2 Aloo Paratha, Curd, Bread, Jam, Tea",
-        "2 Banana, Milk, Bread, Jam, Tea, Coffee",
-        "Poori, Aloo Tamatar Bhaji, Bread, Jam, Tea",
-        "3 Uttapam, Coconut Chutney, Bread, Jam, Tea",
-        "2 Khasta Kachori, Aloo-Tamatar Bhaji, Bread, Jam, Tea",
-        "Masala Idli (2+1), Tomato Chutney, Bread, Jam, Tea",
-        "Namkeen Poha, Mint Chutney, Bread, Jam, Tea"
+        "Aloo Paratha (2 pcs), Curd, Tea, Bread + Jam",
+        "Banana (2 pcs), Bread + Jam, Tea + Milk + Coffee",
+        "Poori, Aloo Tamatar Bhaji, Tea, Bread + Jam",
+        "Uttapam (3 pcs), Coconut Chutney, Tea, Bread + Jam",
+        "Khasta Kachori (2 pcs), Aloo-Tamatar Bhaji, Tea, Bread + Jam",
+        "Masala Idli (2+1 pcs), Tomato Chutney, Tea, Bread + Jam",
+        "Namkeen Poha, Mint Chutney, Tea, Bread + Jam"
       ]
     },
     {
@@ -20,26 +20,26 @@
       "time": "12:00-2:30 PM",
       "start": "12:00",
       "days": [
-        "Sprout Salad, Dal Makhani, Jeera Rice, Mix Veg, Roti, Pickle, Dhaniya Raita",
-        "Green Salad, Moong Masoor Dal, Peas Pulao, 2 Malai Kofta, Roti, Pickle, Jeera Raita",
-        "Green Salad, Rajma Raseela, Dhaniya Rice, Achari Lauki, Roti, Pickle, Masala Tadka Raita",
-        "Green Salad, Panjabi Kadhi, Plain Rice, Aloo Bharta, Roti, Pickle, Papad/Fryums",
-        "Green Salad, Chana Dal Tadka, Onion Rice, Shahi Paneer/Palak Paneer (200g with Gravy), Roti, Pickle, Boondi Raita",
-        "Green Salad, Mix Dal Tadka, Plain Rice, Cabbage Aloo, Roti, Pickle, Burani Raita",
-        "Lacha Onion, Chole Masala, Whole Spices Rice, Poori, Roti, Pickle, Boondi Raita"
+        "Sprout Salad, Dal Makhani, Jeera Rice, Mixed Vegetable, Dhaniya Raita, Tawa Roti, Mixed Pickle",
+        "Green Salad, Moong Masoor Dal, Peas Pulao, Malai Kofta (2 pcs), Jeera Raita, Tawa Roti, Mixed Pickle",
+        "Green Salad, Rajma Raseela, Dhaniya Rice, Achari Lauki, Masala Tadka Raita, Tawa Roti, Mixed Pickle",
+        "Green Salad, Punjabi Kadhi, Plain Rice, Aloo Bharta, Papad/Fryums, Tawa Roti, Mixed Pickle",
+        "Green Salad, Chana Dal Tadka, Onion Rice, Shahi Paneer/Palak Paneer (200g with gravy), Boondi Raita, Tawa Roti, Mixed Pickle",
+        "Mix Dal Tadka, Plain Rice, Cabbage Aloo, Burani Raita, Tawa Roti, Mixed Pickle",
+        "Lacha Onion, Chhole Masala, Whole Spices Rice, Poori, Boondi Raita, Tawa Roti, Mixed Pickle"
       ]
     },
     {
-      "name": "🥪 Snacks",
+      "name": "🥪 Evening Snacks",
       "time": "5:00-6:00 PM",
       "start": "17:00",
       "days": [
-        "Bhel Puri Papadi Chat, Mint/Sauth Chutney, Tea",
-        "Mix Pakoda, Mint/Sauth Chutney, Tea",
+        "Bhel Puri Papadi Chat, Mint Chutney/Saunth Chutney, Tea",
+        "Mix Pakoda, Mint Chutney/Saunth Chutney, Tea",
         "Veg Noodle, Tomato Ketchup, Tea",
         "Masala Veg Biryani, Mint Chutney, Tea",
-        "2 Aloo Sandwich, Tomato Ketchup, Tea",
-        "2 Samosa, Mint Chutney, Tea",
+        "Aloo Sandwich (2 pcs), Tomato Ketchup, Tea",
+        "Samosa (2 pcs), Mint Chutney, Tea",
         "Macaroni, Tomato Ketchup, Tea"
       ]
     },
@@ -48,13 +48,13 @@
       "time": "7:30-9:30 PM",
       "start": "19:30",
       "days": [
-        "Green Salad, Paneer Masala/Mutter Paneer (200g with Gravy), Chana Dal Tadka, Roti, Plain Rice, Pickle, Moong Dal Halwa (140g)",
-        "Green Salad, Aloo Soya Vadi, Urad Chane Ki Dal, Roti, Jeera Rice, Pickle, Semiya Kheer (140g)",
-        "Green Salad, Palak Corn, Yellow Dal Tadka, Roti, Tadka Rice, Pickle, 1 Gulab Jamun",
-        "Green Salad, Mix Veg, Chole Masala, Roti, Jeera Rice, Pickle, 1 Dahi Bhalla",
-        "Green Salad, Chana Masala, Moong Masoor Dal, Roti, Whole Spicy Rice, Pickle, Phirni Kheer (140g)",
-        "Green Salad, Gatta Curry, Dal Fry, Roti, Plain Rice, Pickle, Sooji Halwa (140g)",
-        "Green Salad, Aloo Tamatari, Sabut Masoor Dal, Roti, Peas Pulao, Pickle, 1 Mathura Peda"
+        "Green Salad, Paneer Masala/Mutter Paneer (200g with gravy), Chana Dal Tadka, Tawa Roti, Plain Rice, Mixed Pickle, Moong Dal Halwa (140g)",
+        "Green Salad, Aloo Soya Vadi, Urad Chane Ki Dal, Tawa Roti, Jeera Rice, Mixed Pickle, Semiya Kheer (140g)",
+        "Green Salad, Palak Corn, Yellow Dal Tadka, Tawa Roti, Tadka Rice, Mixed Pickle, Gulab Jamun (1 pc)",
+        "Green Salad, Mixed Vegetables, Chhole Masala, Tawa Roti, Jeera Rice, Mixed Pickle, Dahi Bhalla (1 pc)",
+        "Green Salad, Chana Masala, Moong Masoor Dal, Tawa Roti, Whole Spices Rice, Mixed Pickle, Phirni Kheer (140g)",
+        "Green Salad, Gatta Curry, Dal Fry, Tawa Roti, Plain Rice, Mixed Pickle, Sooji Halwa (140g)",
+        "Green Salad, Aloo Tamatar, Sabut Masoor Dal, Tawa Roti, Peas Pulao, Mixed Pickle, Mathura Peda (1 pc)"
       ]
     }
   ]
