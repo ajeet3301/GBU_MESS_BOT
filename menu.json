@@ -1,5 +1,6 @@
 {
   "leadMinutes": 15,
+  "menuDate": "2026-04-30",
   "meals": [
     {
       "name": "🍳 Breakfast",
@@ -57,5 +58,14 @@
         "Green Salad, Petha Ki Sabji, Chana Dal Fry, Roti, Plain Fry Rice, Pickle, Besan Laddu"
       ]
     }
-  ]
+  ],
+  "fasting": {
+    "note": "Monday & Tuesday only, for students who are fasting",
+    "appliesToDays": [0, 1],
+    "meals": {
+      "breakfast": "Mix Fruits/Fruits + Milk/Tea/Coffee",
+      "lunch": "Fried Aloo + Dahi",
+      "dinner": "Aloo Paratha + Dahi"
+    }
+  }
 }
